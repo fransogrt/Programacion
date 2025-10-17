@@ -1,0 +1,27 @@
+package U02;
+
+public class U02_4y5 {
+    //  4.- Dados los siguientes identificadores que se van a utilizar en un programa escrito en Java,
+    //¿Cuáles de ellos son correctos y cuáles no?.
+    //a) mi carta no
+    //b) unacarta si
+    //c) min2escritos si
+    //d) 4cientos no
+    //e) es_un_mensaje si
+    //f) no_vale nada no
+    //g) ______ejemplo________ si
+    //h) mi-programa no
+    //i) ¿Cuántos? no
+    //j) el%Descontado no
+    //k) a150PORHORA si
+    //j) TengoMUCHO$$$$$ si
+    //m) LOS400GOLPES si
+    //n) quieroUNAsolución si
+
+    //5.- Dados los siguientes identificadores que se van a utilizar en un programa escrito en Java,
+    //diga cuáles de ellos son correctos y cuáles no. Justifique su respuesta.
+    //a) descarta2 si
+    //b) cuántosQuerrás si
+    //c) Carr3Mesas si
+    //d) çaVaBienAvec$$ si
+}
