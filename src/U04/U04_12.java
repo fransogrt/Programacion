@@ -23,13 +23,13 @@ public class U04_12 {
     }
     static void saludo(String nombre, char opcion){
         switch(opcion){
-            case 'a': // Valenciano
+            case 'a':case 'A': // Valenciano
                 System.out.printf("Bon dia %s.",nombre);
                 break;
-            case 'b': // Castellano
+            case 'b':case 'B': // Castellano
                 System.out.printf("Buenos dias %s",nombre);
                 break;
-            case 'c': // Ingles
+            case 'c':case 'C': // Ingles
                 System.out.printf("Good morning %s",nombre);
                 break;
             default:
