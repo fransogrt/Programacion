@@ -25,8 +25,8 @@ public class Producto {
         if (stock < 0) {
             this.stock = 0;
             System.out.println("El stock no puede ser negativo");
-        }else
-            this.stock=stock;
+        } else
+            this.stock = stock;
     }
     public boolean hayStock(){
         return stock >= 1;
