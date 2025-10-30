@@ -9,5 +9,9 @@ public class Cancion {
         this.artista=artista;
         this.duracionSegundos=duracionSegundos;
     }
-   // public void
+   public void mostrarInfo(){
+        System.out.println("El titulo es: "+titulo);
+        System.out.println("El artista es: "+artista);
+        System.out.println("La duracion es: "+duracionSegundos+" segundos");
+    }
 }
