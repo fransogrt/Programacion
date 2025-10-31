@@ -4,7 +4,7 @@ public class Mascota {
     private String nombre, tipo;
     private int edad;
 
-    Mascota(String nombre, String tipo, int edad){
+    public Mascota(String nombre, String tipo, int edad){
         this.nombre=nombre;
         this.tipo=tipo;
         setEdad(edad);

@@ -20,10 +20,13 @@ public class CuentaBancaria {
             this.saldo=saldo+cantidad;
     }
     public boolean retirar(double cantidad) {
-        if (this.saldo-cantidad>=0){
+        if (this.saldo>=cantidad && cantidad>0){
             this.saldo=this.saldo-cantidad;
             return true;
-        }else {
+        }else if (cantidad<0){
+            System.out.println("La cantidad a retirar no puede ser negativa");
+            return false;
+        }else{
             System.out.println("Cantidad a retirar mayor a saldo");
             return false;
         }
@@ -32,6 +35,7 @@ public class CuentaBancaria {
         this.saldo=this.saldo+(this.saldo * INTERES_BASE);
     }
     public static void setInteresBase(double nuevoInteres){
+        System.out.printf("%nEl interes base de %.2f ha cambiado a %.2f%n", INTERES_BASE,nuevoInteres);
         INTERES_BASE=nuevoInteres;
     }
 }
